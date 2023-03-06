@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<!--The <head> Metadata is data about the HTML document. Metadata is not displayed to user.-->
+
+<head>
+    <!--meta charset="UTF-8" which covers almost all of symbols in the world.-->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="source/fonts/cairo.css">
+    <link rel="stylesheet" href="source/font/janna/janna.css">
+    <link rel="stylesheet" href="source/css/mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--display the page title in tabs.-->
+    <title>turbo</title>
+</head>
+<!--The <body> element contains all the contents of an HTML document. -->
+
+<body class="homepage">
+    <section class="paragragh" id="demo">
+        <section class="gategoryone">
+            <img src="source/img/picone.jpg" alt="picrightpage">
+        </section>
+        <section class="gategorytwo">
+            <div class="icon">
+                <button id="button" type="button" onclick="myFunction()">
+                    <img src="source/img/exit.gif" alt="icon">
+                </button>
+            </div>
+            <img src="source/img/ArabsTurbo_Logo.png" alt="logo">
+
+            <h1>
+                نشرة تيربو العرب
+            </h1>
+            <p>
+                آخر اخبار السيارات العربية و العالمية يوميا على بريدك الالكتروني
+            </p>
+            <form>
+                <input type="text" name="username" placeholder=" ادخل الاسم">
+                </br>
+                <label id="name">ادخل الاسم</label>
+                </br>
+                <input type="email" name="useremail" placeholder=" ادخل الايميل ">
+                </br>
+                <label id="email">ادخل الايميل</label>
+                </br>
+                <label id="msg"></label>
+                </br>
+                <input type="button" value="اشترك مجانا" onclick="validate()">
+            </form>
+        </section>
+    </section>
+    <script src="source/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+.homepage {
+    width: auto;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+.paragragh {
+    display: inline-flex;
+}
+
+.gategorytwo {
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 7px;
+}
+
+.gategoryone img {
+    width: 100%;
+    height: 100%;
+    max-width: 480px;
+}
+
+#button {
+    border: none;
+    background-color: inherit;
+}
+
+img {
+    width: max-content;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Janna Bold', sans-serif, 'Times New Roman';
+    font-weight: bold;
+    font-size: 30px;
+    color: #333333;
+}
+
+p {
+    font-family: "Janna Regular", sans-serif, 'Times New Roman';
+    font-size: 30px;
+    color: #333333;
+    width: 99%;
+    text-align: center;
+}
+
+label {
+    font-family: "Janna Regular", sans-serif, 'Times New Roman';
+    color: red;
+    font-size: 12px;
+    text-align: right;
+}
+
+
+
+input[type=text],
+[type=email] {
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 5px solid #ccc;
+    box-sizing: border-box;
+    border-width: 1px 1px 5px 1px;
+    border-color: #c7c7c7;
+    font-family: "Janna Regular", sans-serif, 'Times New Roman';
+}
+
+input[type=button] {
+    font-family: "Janna Regular", sans-serif, 'Times New Roman';
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 196px;
+    height: 61px;
+    margin: 15px;
+    padding: 1px;
+}
+
+#email,
+#name {
+    visibility: hidden;
+}
+
+
+
+@media screen and (min-width:375px) and (max-width:667px) {
+
+    .categoryone {
+        width: max-content
+    }
+
+    .paragragh {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .p {
+        width: 80%;
+        max-width: 80%;
+    }
+
+    input[type="text"],
+    [type="email"] {
+        width: 300px;
+
+    }
+
+    input[type=submit] {
+        margin: 15px;
+    }
+}

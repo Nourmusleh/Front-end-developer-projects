@@ -1,0 +1,645 @@
+.home-page {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    position: fixed sticky;
+    display: flex;
+    flex-direction: row;
+    padding: 1px 1px;
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+}
+
+
+.navigation {
+    display: grid;
+    align-items: center;
+    text-decoration: none;
+    padding: 1px;
+}
+
+ul {
+    /* for remove bullets from ul */
+    /* list-style-type: none; */
+    padding-right: 3px;
+    align-items: left;
+    text-decoration: none;
+
+}
+
+
+li {
+    display: inline;
+    padding: 5px;
+    align-items: center;
+}
+
+.navigation a {
+    color: gray;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #cdc7dd;
+}
+
+.nav li {
+    text-align: center;
+    /* width: 146px; */
+    padding-right: 35px;
+    padding: 20px;
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.active {
+    box-shadow: 0px 5px #4eaee64d;
+}
+
+.imgmain {
+    width: 100%;
+    opacity: 50%;
+}
+
+.cont {
+    position: relative;
+    background-color: black;
+    padding: 0;
+}
+
+.text-block {
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 50px;
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 70px;
+    color: #ffffff;
+    /* margin-left: 25px; */
+    /* direction: ltr; */
+}
+
+.text-block h1 {
+    height: 144px;
+    width: 620px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Tajawal Bold', sans-serif, 'Times New Roman';
+
+}
+
+.text-block p {
+    font-size: 43px;
+    font-style: italic;
+}
+
+.img {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    display: block;
+    max-width: 1366px;
+
+}
+
+.paragraph-second {
+    background-image: url(../img/left.png), url(../img/right.png);
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat
+}
+
+.insidenews {
+    position: relative;
+    padding: 40px;
+}
+
+.text .h2 {
+    font-family: 'Tajawal Bold', sans-serif, 'Times New Roman';
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 18px;
+}
+
+.button-contant {
+    text-align: center;
+    font-family: 'Tajawal Bold', sans-serif, 'Times New Roman';
+    font-size: 18px;
+}
+
+.text h2 {
+    font-size: 40px;
+    font-family: 'Tajawal Bold';
+}
+
+.text p {
+    font-size: 14px;
+    width: 100%;
+    /* padding-left: 300px; */
+
+}
+
+input[type=text],
+[type=email] {
+    width: 250px;
+    height: 40px;
+    margin: 15px;
+    padding: 5px;
+    border: 5px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    border-width: 1px 1px 5px 1px;
+    border-color: #c7c7c7;
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 16px;
+}
+
+input[type=button] {
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    margin: 1px;
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 16px;
+}
+
+.hederfooter {
+    color: blue;
+}
+
+.big-categeory {
+    display: flex;
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 16px;
+    color: #2d2d2d;
+    background-color: rgb(247, 247, 247);
+    max-width: 100%;
+
+}
+
+.ul .contantfooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.categeory ul {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 10px; */
+
+}
+
+.category {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+
+.category li {
+    padding: 13px;
+}
+
+.four {
+    margin-top: 50px;
+}
+
+.img-background-blue {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+.imgclients {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.imgmicrosoft {
+    padding-left: 40px;
+}
+
+.endofpage {
+    background-color: #0079c1;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 12px;
+}
+
+.paragraph {
+    margin: 0px;
+}
+
+.applyjob {
+    margin: 0ox;
+    background-color: white;
+}
+
+.headerli {
+    color: #2d90ca;
+    background-color: rgb(230, 230, 230);
+    border: 3px rgb(9, 10, 9);
+    border-radius: 5px;
+    margin: 0px;
+    display: block;
+    border-width: 100%;
+    font-family: 'Tajawal Bold', sans-serif, 'Times New Roman';
+    font-size: 20px;
+}
+
+span {
+    color: #5b5b5b;
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 14px;
+}
+
+
+
+.ulinapplyjob {
+    /* background-color: lightgrey; */
+    border: 0px rgb(236, 238, 236);
+    padding: 3px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.spical {
+    border: 1px solid rgb(236, 238, 236);
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+.path {
+    color: #007ac2;
+    text-decoration: none;
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 14px;
+    /* color: #ffffff; */
+
+}
+
+.paragraph-second {
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 18px;
+    margin: 0%;
+    padding: 0px 100px 50px 100px;
+
+}
+
+.pathpage {
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 14px;
+}
+
+.paragraphin-jobapply {
+    font-family: 'Tajawal Regular', sans-serif, 'Times New Roman';
+    font-size: 16px;
+    margin: 0%;
+    /* background-color: rgb(252, 252, 252); */
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+
+.hide {
+    display: none;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1px;
+    border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    align-content: flex-start;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+
+    background: #007bb5;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.iconinpargrah {
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    font-size: medium;
+    font-family: 'Tajawal Bold', sans-serif, 'Times New Roman';
+}
+
+.iconinpargrah h3 {
+    font-size: smaller;
+}
+
+.iconp {
+    margin-top: 2px;
+}
+
+i {
+    float: right;
+    display: inline-flex;
+    font-size: medium;
+}
+
+/* .paragraphin-jobapply {
+    display: none;
+} */
+.container-fluid {
+    margin: 0;
+    padding: 0;
+
+}
+
+.page-footer .container {
+    max-width: 100%;
+    padding: 20px 0 0 0;
+}
+
+.nav-item {
+    /* width: 140px; */
+    padding: 5px;
+    padding-right: 0px;
+}
+
+.nav li {
+    padding-right: 1px;
+    /* width: 110px; */
+}
+
+.cont {
+    padding: 0;
+}
+
+.row a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.row .col-6 {
+    padding: 5px;
+}
+
+.icon .icon2 {
+    font-size: 30px;
+}
+
+
+.ulinapplyjob .accordion-button:not(.collapsed) {
+
+    background: none;
+    box-shadow: none;
+}
+
+.navbar {
+    padding: 0%;
+}
+
+.container-fluid .navbar-nav {
+    padding: 0;
+    margin: 0 0 0 auto;
+    max-width: fit-content;
+    text-align: right;
+}
+
+/* .navbar-nav .dropdown {
+    /* padding: 45px 30px 0 0; */
+
+
+.navigation.navbar {
+    padding: 0%;
+}
+
+
+.clients {
+    width: 150px;
+    margin: 5px
+}
+
+#navbarNavDropdown {
+    margin: 0 50px 0 50px;
+}
+
+/* .sprite {
+    background-image: url(../img/spritesheet4.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+    /* background-color: #d3d3d373; */
+/* width: auto;
+    height: 100px; */
+/* } */
+
+.uaemoment_logo {
+    width: 228px;
+    height: 74px;
+    background-position: -18px -17px;
+}
+
+.turbo_logo {
+    background-position: -280px -17px;
+    width: 161px;
+    height: 66px;
+}
+
+.quyadi_logo {
+    background-position: -474px -17px;
+    width: 159px;
+    height: 49px;
+}
+
+.tajak_logo {
+    background-position: -671px -17px;
+    width: 113px;
+    height: 62px;
+}
+
+.aseel {
+
+    background-color: lightblue;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aseel a {
+    padding-right: 170px;
+    margin: 20px;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .logoWarp {
+        max-width: 50%;
+        display: inline-flex;
+    }
+
+    .layar1 {
+        max-width: 50%;
+    }
+
+    .text h2 {
+        font-size: 17px;
+    }
+
+    .text p {
+        font-size: 13px;
+    }
+
+    .category li {
+        padding-top: 70px;
+        padding-bottom: 0px;
+    }
+
+    .container-fluid {
+        display: inline-block;
+    }
+
+    .nav .layar1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .home-page {
+        width: 100%
+    }
+
+    .imgmain {
+        min-width: 350px;
+    }
+
+
+    .nav .img {
+        max-width: 50%;
+    }
+
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .paragraph-second {
+        padding: 0px 20px 50px 20px;
+    }
+
+    .insidenews {
+        padding: 0px;
+        padding-top: 7px;
+    }
+
+    .paragraph-first .text-block h1 {
+        height: 10px;
+        width: 360px;
+        font-size: 16px;
+    }
+
+    .text-block p {
+        font-size: 14px;
+    }
+
+    .icon .icon2 {
+        text-align: center;
+        /* to set icon center 0 auto  */
+        margin: 0px auto;
+    }
+
+    .imgmicrosoft {
+        padding-left: 0px;
+    }
+
+    .row a {
+        padding: 5px;
+    }
+
+    .button-contant {
+        margin: 0 auto;
+    }
+
+    .container-fluid {
+        max-height: 50px;
+    }
+
+    .container-fluid .navbar-toggler {
+        margin-right: 10px;
+        min-width: 35px;
+        display: inline-block;
+    }
+
+
+    .navbar-nav {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .navbar-nav .nav {
+        padding: 0;
+        margin: 0 0 0 auto;
+        max-width: fit-content;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .logo-banner {
+        display: none;
+    }
+}

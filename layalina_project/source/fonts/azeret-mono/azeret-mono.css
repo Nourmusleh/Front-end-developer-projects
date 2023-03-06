@@ -1,0 +1,36 @@
+/* azeret-mono-regular - latin */
+@font-face {
+  font-family: 'Azeret Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    /* IE6-IE8 */
+    url('azeret-mono-v11-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('azeret-mono-v11-latin-regular.woff') format('woff'),
+
+}
+
+/* azeret-mono-500 - latin */
+@font-face {
+  font-family: 'Azeret Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('../fonts/azeret-mono-v11-latin-500.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/azeret-mono-v11-latin-500.woff') format('woff'),
+}
+
+/* azeret-mono-700 - latin */
+@font-face {
+  font-family: 'Azeret Bold ';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('../fonts/azeret-mono-v11-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/azeret-mono-v11-latin-700.woff') format('woff'),
+    /* Modern Browsers */
+
+}
