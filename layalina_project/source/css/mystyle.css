@@ -92,7 +92,7 @@ header.pageLeft {
  */
 
 .categorySecond {
-    display: flex;
+    display: inline-flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -228,18 +228,6 @@ h6 {
     background-color: coral;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:359px) {
     .page {
